@@ -2,7 +2,7 @@
 
 WhisperFox is a privacy-first, browser-based virtual recording studio. It features a reactive 2D Fox avatar that replaces your real face on camera.
 
-![Fox Classroom Studio Screenshot](screenshot.png)
+![Fox Classroom Studio Screenshot](/screenshot.png)
 
 ## 🌟 Current Features (Implemented)
 
@@ -14,7 +14,7 @@ WhisperFox is a privacy-first, browser-based virtual recording studio. It featur
     *   **Input Mimicry:** The avatar simulates typing on a keyboard when you type and clicking a mouse when you click.
 
 ### 🎬 Recording Studio
-*   **Local Recording:** Records video and audio directly in the browser (WebM/MP4).
+*   **Local Recording:** Records audio directly in the browser (MP4).
 *   **Multi-Format Support:** Switch aspect ratios on the fly:
     *   **9:16** (TikTok/Shorts)
     *   **16:9** (YouTube/Desktop)
