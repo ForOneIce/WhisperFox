@@ -1,0 +1,7 @@
+{
+  "name": "WhisperFox",
+  "description": "WhisperFox is a privacy-first, browser-based recording tool that uses a Live2D virtual avatar to replace your real face while speaking on camera.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

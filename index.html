@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fox Classroom Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Noto+Sans+SC:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"Space Mono"', 'monospace'],
+              sans: ['"Fredoka"', '"Noto Sans SC"', 'sans-serif'],
+            },
+            colors: {
+              school: {
+                board: '#2D4F38', // Chalkboard Green
+                boardDark: '#1e3626',
+                chalk: '#F0F4F8', // White/Blueish
+                wood: '#8D6E63', // Desk Wood
+                woodDark: '#5D4037',
+                beige: '#F5F5DC', // Wall/Paper
+                paper: '#FFFDF0',
+                accent: '#FF6B6B', // Grading Red
+                primary: '#FFB74D', // Fox Orange
+                text: '#2C3E50',
+              }
+            },
+            backgroundImage: {
+              'chalk-pattern': "url('data:image/svg+xml,%3Csvg width=\\'40\\' height=\\'40\\' viewBox=\\'0 0 40 40\\' xmlns=\\'http://www.w3.org/2000/svg\\'%3E%3Cg fill=\\'%23ffffff\\' fill-opacity=\\'0.05\\' fill-rule=\\'evenodd\\'%3E%3Cpath d=\\'M0 40L40 0H20L0 20M40 40V20L20 40\\'/%3E%3C/g%3E%3C/svg%3E')",
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body { 
+        background-color: #E0E0E0; 
+        color: #2C3E50;
+        font-family: 'Fredoka', sans-serif;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 8px; background: #D7CCC8; }
+      ::-webkit-scrollbar-thumb { background: #8D6E63; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #5D4037; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
